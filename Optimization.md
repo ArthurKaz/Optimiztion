@@ -1,4 +1,4 @@
-# Optimiztion
+# Object Pool
 
 This implementation introduces an abstract class PoolBase<T> which is a generic object pool that can be used with objects inheriting from MonoBehaviour. Let's delve into this implementation in detail:
 
