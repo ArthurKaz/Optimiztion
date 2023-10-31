@@ -7,6 +7,7 @@ This implementation introduces an abstract class PoolBase<T> which is a generic 
 2. The class features two serialized fields:
 
 _prefab: This is the object used for creating new objects in the pool.
+
 _initialPoolSize: The pool's initial size, determining how many objects will be created during pool initialization.
 
 3. The pool maintains a list _pool containing objects belonging to the pool.
